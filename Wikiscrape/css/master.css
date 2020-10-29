@@ -1,0 +1,128 @@
+/* Structure for*/
+body, h1, h2, h3 {
+padding: 0;
+margin: 0;
+font-family: "Arial Veranda", Arial, serif;
+background-color: #F5D6C6;
+}
+section.content {
+  width: 75%;
+  /*margin can take numerical value, or auto, apply to top, right, bottom, bottom left */
+  margin: 0 auto;
+  line-height: 2rem;
+  font-size: 15pt;
+}
+div#hero-text {
+  padding: 0 -1rem;
+  display: flex;
+  color: white;
+  font-size: 15vw;
+  text-align: center;
+  font-family: "Arial Veranda", Arial, serif;
+}
+div#hero-text2 {
+padding: 0 1rem;
+font-size: 5vw;
+text-align: right;
+color: white;
+}
+section#maintitle {
+  width: 100vw;
+  /*viewport width*/
+  height: 50vw;
+  background-image: url("../imgs/220px-Barrett_Wilson.jpg");
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#maintitlesub  {
+  margin: 8rem auto;
+  width: 75%;
+}
+section#maintitlesub p {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  font-style: italic;
+  font-weight: 700;
+}
+div#imagebox {
+  /*This is the percentage you want the image to have,
+  i.e. the width of the "parent" div box */
+  width: 35%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+img {
+  width: 100%;
+  margin-top: 7rem;
+}
+div#biography {
+  margin-top: 5rem;
+}
+div#biography-text {
+  margin-top: 2rem;
+}
+div#imagebox-sign {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5rem;
+}
+div.textimage {
+  display: flex;
+}
+div#imagebox-playwright {
+  width: 50%;
+  margin-top: 4rem;
+}
+div#pgroup {
+  width: 50%;
+  line-height: 2.75rem;
+  font-size: 1.5rem;
+}
+div#plays {
+  font-style: italic;
+}
+div#theatres {
+  line-height: 2.75rem;
+  font-size: 1.5rem;
+}
+div#works {
+  margin-top: 5rem;
+}
+div#theatre-management {
+  margin-top: 2rem;
+}
+div#e1880s {
+  margin-top: 2rem;
+}
+div#e1890s {
+  margin-top: 5rem;
+  font-style: italic;
+}
+div#death {
+  margin-top: 5rem;
+}
+div#archives {
+  margin-top: 5rem;
+}
+div#later-adaptations {
+  margin-top: 5rem;
+}
+div#acting {
+  margin-top: 5rem;
+}
+div#acting-div {
+  line-height: 2.75rem;
+  font-size: 1.5rem;
+}
+div#references {
+  margin-top: 5rem;
+}
+div#playwright {
+  margin-top: 5rem;
+}
+div#external-links {
+  margin-top: 5rem;
+}
